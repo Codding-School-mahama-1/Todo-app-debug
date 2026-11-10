@@ -103,25 +103,3 @@ After the task in screenshot 6, Clear completed removed both finished tasks. The
 ### 8. Empty list
 
 ![Empty Desklist](assignment/expected-output/08-empty.png)
-
-## Files
-
-Open all of these. A file can look fine and still be part of the mismatch.
-
-| File | What it owns |
-| --- | --- |
-| `package.json` | Scripts that start the app |
-| `vite.config.js` | How Vite builds React |
-| `index.html` | The page shell |
-| `public/favicon.svg` | The tab icon |
-| `src/main.jsx` | Where React starts |
-| `src/index.css` | The page background |
-| `src/App.css` | The card, button, and task row |
-| `src/data.js` | The five starter tasks |
-| `src/storage.js` | Load and save |
-| `src/useTodos.js` | Add, complete, rename, delete, clear |
-| `src/App.jsx` | Page, filters, search, items-left count |
-| `src/components/TodoForm.jsx` | New-task field |
-| `src/components/TodoFilters.jsx` | Filter chips |
-| `src/components/TodoList.jsx` | The list |
-| `src/components/TodoItem.jsx` | One row |
